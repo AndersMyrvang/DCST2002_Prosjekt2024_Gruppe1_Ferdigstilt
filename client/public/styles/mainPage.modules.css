@@ -1,0 +1,51 @@
+/*Card 1*/
+.card-title1{
+  text-align: center;
+}
+
+.card-body{
+  width: fit-content;
+}
+
+/*Card 2*/
+.card-content2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-body2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-content2{
+  display: flex;
+  justify-content: center;
+}
+
+.card2{
+  border: none;
+}
+
+/*Card 3*/
+.card-body3{
+  height: 300px;
+}
+
+.card3 {
+  width: 400px;
+}
+
+/*Card 4*/
+.card-body4{
+  height: fit-content;
+  min-width: 380px;
+}
+
+
+/*Card 5*/
+.card-body5{
+  height: fit-content;
+}

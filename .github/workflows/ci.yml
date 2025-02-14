@@ -1,0 +1,98 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:8
+        env:
+          MYSQL_ROOT_PASSWORD: test
+          MYSQL_DATABASE: testdb
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping --silent"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install Dependencies
+        working-directory: ./server
+        run: npm install
+
+      - name: Make config.ts file
+        run: touch ./server/test/config.ts
+
+      - name: Wait for MySQL to be ready
+        run: |
+          until mysql -h 127.0.0.1 -P 3306 -u root -ptest -e "SELECT 1"; do
+            echo "Waiting for MySQL to be ready..."
+            sleep 5
+          done
+
+      - name: Set Up Test Database Schema
+        run: |
+          mysql -h 127.0.0.1 -P 3306 -u root -ptest testdb <<EOF
+          CREATE TABLE IF NOT EXISTS Pages (
+              id INT NOT NULL AUTO_INCREMENT,
+              name TEXT,
+              num_views INT,
+              PRIMARY KEY(id)
+          );
+
+          CREATE TABLE IF NOT EXISTS Versionlog (
+              id INT NOT NULL AUTO_INCREMENT,
+              pageid INT NOT NULL,
+              name TEXT,
+              content TEXT,
+              userid INT,
+              date DATETIME,
+              changelog TEXT,
+              version INT,
+              PRIMARY KEY(id)
+          );
+
+          CREATE TABLE IF NOT EXISTS Users (
+              id INT NOT NULL AUTO_INCREMENT,
+              username TEXT,
+              hashed_password BLOB,
+              salt BLOB,
+              avatar TEXT,
+              bio TEXT,
+              permid INT NOT NULL,
+              PRIMARY KEY(id)
+          );
+          EOF
+
+      - name: Run Jest Tests
+        working-directory: ./server
+        run: |
+          npm test
+
+# Kode for Klient tester
+
+      - name: Install Dependencies
+        working-directory: ./client
+        run: npm install
+
+      - name: Run Jest Tests
+        working-directory: ./client
+        run: npm test -- -u

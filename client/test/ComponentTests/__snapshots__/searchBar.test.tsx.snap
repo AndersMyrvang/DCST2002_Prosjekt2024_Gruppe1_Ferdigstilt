@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar Component clears suggestions when search is triggered 1`] = `
+<DocumentFragment>
+  <div
+    class="search-bar"
+  >
+    <input
+      placeholder="Search..."
+      type="text"
+      value="pla"
+    />
+    <span
+      class="search-icon"
+    >
+      🔍
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SearchBar Component fetches and displays suggestions when typing in the search bar 1`] = `
+<DocumentFragment>
+  <div
+    class="search-bar"
+  >
+    <input
+      placeholder="Search..."
+      type="text"
+      value="pla"
+    />
+    <span
+      class="search-icon"
+    >
+      🔍
+    </span>
+    <div
+      class="suggestions-dropdown"
+    >
+      <div
+        class="suggestion-item"
+      >
+        Player: Player One
+      </div>
+      <div
+        class="suggestion-item"
+      >
+        Team: Team Two
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SearchBar Component renders the search bar input and search icon 1`] = `
+<DocumentFragment>
+  <div
+    class="search-bar"
+  >
+    <input
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+    <span
+      class="search-icon"
+    >
+      🔍
+    </span>
+  </div>
+</DocumentFragment>
+`;

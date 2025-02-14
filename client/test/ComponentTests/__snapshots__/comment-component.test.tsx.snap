@@ -1,0 +1,376 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment component tests CommentSection renders correctly when editing a comment 1`] = `
+<Fragment>
+  <Card
+    title="Comments"
+  >
+    <NewComment
+      onNewComment={[Function]}
+      page_id={1}
+    />
+    <Row
+      key="NaN"
+    >
+      <Column>
+         
+        <img
+          alt="Bilde fra undefined"
+          src="undefined"
+          style={
+            {
+              "borderRadius": "50%",
+              "objectFit": "cover",
+            }
+          }
+          width="45px"
+        />
+      </Column>
+      <Column>
+        <b />
+      </Column>
+      <Column>
+        Great post!
+      </Column>
+      <Column>
+        <ButtonDanger
+          onClick={[Function]}
+        >
+          <FaTrashAlt />
+        </ButtonDanger>
+      </Column>
+      <Column>
+        <ButtonLight
+          onClick={[Function]}
+        >
+          <BiSolidPencil />
+        </ButtonLight>
+      </Column>
+    </Row>
+    <Row
+      key="NaN"
+    >
+      <Column>
+         
+        <img
+          alt="Bilde fra undefined"
+          src="undefined"
+          style={
+            {
+              "borderRadius": "50%",
+              "objectFit": "cover",
+            }
+          }
+          width="45px"
+        />
+      </Column>
+      <Column>
+        <b />
+      </Column>
+      <Column>
+        Nice article!
+      </Column>
+      <Column />
+      <Column />
+    </Row>
+  </Card>
+</Fragment>
+`;
+
+exports[`Comment component tests CommentSection renders correctly with delete and edit buttons for user's own comment 1`] = `
+<Fragment>
+  <Card
+    title="Comments"
+  >
+    <NewComment
+      onNewComment={[Function]}
+      page_id={1}
+    />
+    <Row
+      key="NaN"
+    >
+      <Column>
+         
+        <img
+          alt="Bilde fra undefined"
+          src="undefined"
+          style={
+            {
+              "borderRadius": "50%",
+              "objectFit": "cover",
+            }
+          }
+          width="45px"
+        />
+      </Column>
+      <Column>
+        <b />
+      </Column>
+      <Column>
+        Great post!
+      </Column>
+      <Column>
+        <ButtonDanger
+          onClick={[Function]}
+        >
+          <FaTrashAlt />
+        </ButtonDanger>
+      </Column>
+      <Column>
+        <ButtonLight
+          onClick={[Function]}
+        >
+          <BiSolidPencil />
+        </ButtonLight>
+      </Column>
+    </Row>
+    <Row
+      key="NaN"
+    >
+      <Column>
+         
+        <img
+          alt="Bilde fra undefined"
+          src="undefined"
+          style={
+            {
+              "borderRadius": "50%",
+              "objectFit": "cover",
+            }
+          }
+          width="45px"
+        />
+      </Column>
+      <Column>
+        <b />
+      </Column>
+      <Column>
+        Nice article!
+      </Column>
+      <Column />
+      <Column />
+    </Row>
+  </Card>
+</Fragment>
+`;
+
+exports[`Comment component tests CommentSection renders correctly with loaded comments 1`] = `
+<Fragment>
+  <Card
+    title="Comments"
+  >
+    <NewComment
+      onNewComment={[Function]}
+      page_id={1}
+    />
+    <Row
+      key="NaN"
+    >
+      <Column>
+         
+        <img
+          alt="Bilde fra undefined"
+          src="undefined"
+          style={
+            {
+              "borderRadius": "50%",
+              "objectFit": "cover",
+            }
+          }
+          width="45px"
+        />
+      </Column>
+      <Column>
+        <b />
+      </Column>
+      <Column>
+        Great post!
+      </Column>
+      <Column>
+        <ButtonDanger
+          onClick={[Function]}
+        >
+          <FaTrashAlt />
+        </ButtonDanger>
+      </Column>
+      <Column>
+        <ButtonLight
+          onClick={[Function]}
+        >
+          <BiSolidPencil />
+        </ButtonLight>
+      </Column>
+    </Row>
+    <Row
+      key="NaN"
+    >
+      <Column>
+         
+        <img
+          alt="Bilde fra undefined"
+          src="undefined"
+          style={
+            {
+              "borderRadius": "50%",
+              "objectFit": "cover",
+            }
+          }
+          width="45px"
+        />
+      </Column>
+      <Column>
+        <b />
+      </Column>
+      <Column>
+        Nice article!
+      </Column>
+      <Column />
+      <Column />
+    </Row>
+  </Card>
+</Fragment>
+`;
+
+exports[`Comment component tests CommentSection renders error alert when comments fail to load 1`] = `
+<Fragment>
+  <Card
+    title="Comments"
+  >
+    <NewComment
+      onNewComment={[Function]}
+      page_id={1}
+    />
+  </Card>
+</Fragment>
+`;
+
+exports[`Comment component tests CommentSection snapshot matches 1`] = `
+<Fragment>
+  <Card
+    title="Comments"
+  >
+    <NewComment
+      onNewComment={[Function]}
+      page_id={1}
+    />
+    <Row
+      key="NaN"
+    >
+      <Column>
+         
+        <img
+          alt="Bilde fra undefined"
+          src="undefined"
+          style={
+            {
+              "borderRadius": "50%",
+              "objectFit": "cover",
+            }
+          }
+          width="45px"
+        />
+      </Column>
+      <Column>
+        <b />
+      </Column>
+      <Column>
+        Great post!
+      </Column>
+      <Column>
+        <ButtonDanger
+          onClick={[Function]}
+        >
+          <FaTrashAlt />
+        </ButtonDanger>
+      </Column>
+      <Column>
+        <ButtonLight
+          onClick={[Function]}
+        >
+          <BiSolidPencil />
+        </ButtonLight>
+      </Column>
+    </Row>
+    <Row
+      key="NaN"
+    >
+      <Column>
+         
+        <img
+          alt="Bilde fra undefined"
+          src="undefined"
+          style={
+            {
+              "borderRadius": "50%",
+              "objectFit": "cover",
+            }
+          }
+          width="45px"
+        />
+      </Column>
+      <Column>
+        <b />
+      </Column>
+      <Column>
+        Nice article!
+      </Column>
+      <Column />
+      <Column />
+    </Row>
+  </Card>
+</Fragment>
+`;
+
+exports[`Comment component tests NewComment renders correctly initially 1`] = `
+<Fragment>
+  <Card
+    title="New Comment"
+  >
+    <Column>
+      <FormInput
+        aria-label="Comment input"
+        onChange={[Function]}
+        rows={3}
+        type="text"
+        value=""
+      />
+    </Column>
+    <Column>
+      <ButtonSuccess
+        onClick={[Function]}
+      >
+         
+        SEND
+         
+      </ButtonSuccess>
+    </Column>
+  </Card>
+</Fragment>
+`;
+
+exports[`Comment component tests NewComment snapshot matches 1`] = `
+<Fragment>
+  <Card
+    title="New Comment"
+  >
+    <Column>
+      <FormInput
+        aria-label="Comment input"
+        onChange={[Function]}
+        rows={3}
+        type="text"
+        value=""
+      />
+    </Column>
+    <Column>
+      <ButtonSuccess
+        onClick={[Function]}
+      >
+         
+        SEND
+         
+      </ButtonSuccess>
+    </Column>
+  </Card>
+</Fragment>
+`;

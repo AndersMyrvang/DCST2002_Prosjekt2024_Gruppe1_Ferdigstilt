@@ -1,0 +1,108 @@
+/* General dark mode styling */
+body.dark-mode {
+  background-color: rgb(37, 39, 53);
+  color: #ffffff;
+}
+
+/* Dark mode styling for specific components */
+
+/* Hamburger Menu */
+body.dark-mode .hamburger-menu {
+  background-color: rgb(37, 39, 53);
+  color: #ffffff;
+}
+
+/* Card styling */
+body.dark-mode .card {
+  background-color: rgb(37, 39, 53);
+  color: #ffffff;
+}
+
+/* Card body styling */
+body.dark-mode .card-body {
+  background-color: rgb(37, 39, 53);
+  color: #ffffff;
+}
+
+/* Dark mode button styling */
+.dark-mode-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+/* Optional: Icon color change within dark mode button */
+.dark-mode-button i {
+  color: #ffffff;
+}
+
+body.dark-mode textarea {
+  background-color: rgb(37, 39, 53);
+  color: #ffffff;
+  border: 1px solid #555;
+}
+
+body.dark-mode .suggestion-item {
+  background-color: rgb(37, 39, 53);
+  color: #ffffff;
+}
+
+body.dark-mode .suggestion-item:hover {
+  background-color: rgb(67, 69, 83);
+  color: #ffffff;
+}
+
+body.dark-mode .btn-light {
+  background-color: rgb(67, 69, 83);
+  color: #ffffff;
+}
+
+body.dark-mode .btn-light:hover {
+  background-color: rgb(132, 133, 142);
+  color: #ffffff;
+}
+
+body.dark-mode input {
+  background-color: rgb(67, 69, 83);
+  color: #ffffff;
+}
+
+body.dark-mode select {
+  background-color: rgb(67, 69, 83);
+  color: #ffffff;
+}
+
+body.dark-mode .search-bar {
+  background-color: rgb(67, 69, 83);
+  color: #ffffff;
+}
+
+body.dark-mode .btn-success {
+  background-color: rgb(15, 49, 15);
+  border-color: rgb(15, 49, 15);
+}
+
+body.dark-mode .btn-success:hover {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+body.dark-mode .btn-danger {
+  background-color: rgb(49, 15, 15);
+  border-color: rgb(49, 15, 15);
+}
+
+body.dark-mode .btn-danger:hover {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+body.dark-mode .admin-panel-container {
+  background-color: rgb(37, 39, 53);
+  color: #ffffff;
+}
+
+.tox-toolbar {
+  z-index: 0;
+}

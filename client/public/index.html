@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Football Wiki</title>
+    <link
+      rel="icon"
+      href="https://img.icons8.com/?size=100&id=9820&format=png&color=000000"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/mainPage.modules.css" />
+    <link rel="stylesheet" href="./styles/hamburger.css" />
+    <link rel="stylesheet" href="./styles/admin-profile.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/searchBar.css" />
+    <link rel="stylesheet" href="./styles/profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script
+      src="https://cdn.tiny.cloud/1/qwxd5v7b87dspwvv36kw6g1etwtwohaz4dvjjm7dg2t6u592/tinymce/7/tinymce.min.js"
+      referrerpolicy="origin"
+    ></script>
+    <script>
+      window.addEventListener('load', function () {
+        const user_id = localStorage.getItem('user_id');
+        if (user_id) {
+        }
+      });
+    </script>
+    <script>
+      window.addEventListener('load', function () {
+        tinymce.init({
+          selector: 'textarea',
+          plugins: [
+            'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+            'checklist mediaembed casechange export formatpainter pageembed a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage advtemplate ai mentions tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss markdown',
+          ],
+          toolbar:
+            'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+          tinycomments_mode: 'embedded',
+          tinycomments_author: 'Author name',
+          setup: function (editor) {
+            editor.on('init', function () {
+              const toolbar = document.querySelector('.tox-editor-header');
+              if (toolbar) {
+                console.log(toolbar);
+                toolbar.style.zIndex = '0';
+              }
+            });
+
+            editor.on('Change', function () {
+              document.getElementById('content').value = editor.getContent();
+            });
+          },
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="bootstrap.min.js"></script>
+    <!-- Embed React application bundled by webpack and babel -->
+    <script src="bundle.js"></script>
+  </body>
+</html>

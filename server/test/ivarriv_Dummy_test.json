@@ -1,0 +1,218 @@
+[
+{"type":"header","version":"4.9.5deb2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"ivarriv_Dummy_test"},
+{"type":"table","name":"Comments","database":"ivarriv_Dummy_test","data":
+[
+{"comment_id":"1","user_id":"1","content":"Amazing overview of the Premier League!","created_at":"2024-01-01 12:00:00","comment_type":"Positive","Page_id":"1","likes":"15"},
+{"comment_id":"2","user_id":"2","content":"Would love to see more stats on individual teams.","created_at":"2024-01-02 13:00:00","comment_type":"Constructive","Page_id":"1","likes":"8"},
+{"comment_id":"3","user_id":"1","content":"Great history of La Liga!","created_at":"2024-01-04 15:00:00","comment_type":"Positive","Page_id":"2","likes":"12"},
+{"comment_id":"4","user_id":"2","content":"Could add more details on top scorers.","created_at":"2024-01-05 16:00:00","comment_type":"Constructive","Page_id":"2","likes":"5"},
+{"comment_id":"5","user_id":"1","content":"The Bundesliga section is awesome!","created_at":"2024-01-07 18:00:00","comment_type":"Positive","Page_id":"3","likes":"18"},
+{"comment_id":"6","user_id":"2","content":"More player stats would be cool.","created_at":"2024-01-08 19:00:00","comment_type":"Constructive","Page_id":"3","likes":"4"},
+{"comment_id":"7","user_id":"1","content":"Love the MLS info!","created_at":"2024-01-10 21:00:00","comment_type":"Positive","Page_id":"4","likes":"16"},
+{"comment_id":"8","user_id":"2","content":"Could be improved with team stats.","created_at":"2024-01-11 22:00:00","comment_type":"Constructive","Page_id":"4","likes":"6"},
+{"comment_id":"9","user_id":"1","content":"Serie A page is great!","created_at":"2024-01-13 12:00:00","comment_type":"Positive","Page_id":"5","likes":"14"},
+{"comment_id":"10","user_id":"2","content":"Add more on recent champions.","created_at":"2024-01-14 13:00:00","comment_type":"Constructive","Page_id":"5","likes":"8"},
+{"comment_id":"11","user_id":"1","content":"Really enjoyed this team’s section.","created_at":"2024-01-16 15:00:00","comment_type":"Positive","Page_id":"6","likes":"13"},
+{"comment_id":"12","user_id":"2","content":"Could use some player highlights.","created_at":"2024-01-17 16:00:00","comment_type":"Constructive","Page_id":"6","likes":"5"},
+{"comment_id":"13","user_id":"1","content":"Exciting page about the team!","created_at":"2024-01-19 18:00:00","comment_type":"Positive","Page_id":"7","likes":"17"},
+{"comment_id":"14","user_id":"2","content":"Could add more stats.","created_at":"2024-01-20 19:00:00","comment_type":"Constructive","Page_id":"7","likes":"6"},
+{"comment_id":"15","user_id":"1","content":"Fantastic overview.","created_at":"2024-01-22 21:00:00","comment_type":"Positive","Page_id":"8","likes":"15"},
+{"comment_id":"16","user_id":"2","content":"More historical data would be good.","created_at":"2024-01-23 22:00:00","comment_type":"Constructive","Page_id":"8","likes":"7"},
+{"comment_id":"17","user_id":"1","content":"Love the stats on the team.","created_at":"2024-01-24 12:00:00","comment_type":"Positive","Page_id":"9","likes":"13"},
+{"comment_id":"18","user_id":"2","content":"Would like more data on achievements.","created_at":"2024-01-25 13:00:00","comment_type":"Constructive","Page_id":"9","likes":"6"},
+{"comment_id":"19","user_id":"1","content":"Great team info!","created_at":"2024-01-26 14:00:00","comment_type":"Positive","Page_id":"10","likes":"12"},
+{"comment_id":"20","user_id":"2","content":"Could use more player photos.","created_at":"2024-01-27 15:00:00","comment_type":"Constructive","Page_id":"10","likes":"4"},
+{"comment_id":"21","user_id":"1","content":"The content is very detailed.","created_at":"2024-01-28 16:00:00","comment_type":"Positive","Page_id":"11","likes":"14"},
+{"comment_id":"22","user_id":"2","content":"Some more recent achievements would be helpful.","created_at":"2024-01-29 17:00:00","comment_type":"Constructive","Page_id":"11","likes":"6"},
+{"comment_id":"23","user_id":"1","content":"Enjoyed the analysis on the team.","created_at":"2024-02-01 18:00:00","comment_type":"Positive","Page_id":"12","likes":"13"},
+{"comment_id":"24","user_id":"2","content":"A bit more information on their rivalries would be interesting.","created_at":"2024-02-02 19:00:00","comment_type":"Constructive","Page_id":"12","likes":"7"},
+{"comment_id":"25","user_id":"1","content":"Love the historical data!","created_at":"2024-02-03 20:00:00","comment_type":"Positive","Page_id":"13","likes":"17"},
+{"comment_id":"26","user_id":"2","content":"Could include more match results from the past.","created_at":"2024-02-04 21:00:00","comment_type":"Constructive","Page_id":"13","likes":"8"},
+{"comment_id":"27","user_id":"1","content":"The details on player transfers are great.","created_at":"2024-02-05 22:00:00","comment_type":"Positive","Page_id":"14","likes":"15"},
+{"comment_id":"28","user_id":"2","content":"Would appreciate more analysis on team strategies.","created_at":"2024-02-06 23:00:00","comment_type":"Constructive","Page_id":"14","likes":"9"},
+{"comment_id":"29","user_id":"1","content":"Interesting stats and info.","created_at":"2024-02-07 12:00:00","comment_type":"Positive","Page_id":"15","likes":"14"},
+{"comment_id":"30","user_id":"2","content":"Add more on league standings.","created_at":"2024-02-08 13:00:00","comment_type":"Constructive","Page_id":"15","likes":"5"},
+{"comment_id":"31","user_id":"1","content":"Awesome detail about the club!","created_at":"2024-02-09 14:00:00","comment_type":"Positive","Page_id":"16","likes":"18"},
+{"comment_id":"32","user_id":"2","content":"Include some more player performance stats.","created_at":"2024-02-10 15:00:00","comment_type":"Constructive","Page_id":"16","likes":"7"},
+{"comment_id":"33","user_id":"1","content":"Great content for the team.","created_at":"2024-02-11 16:00:00","comment_type":"Positive","Page_id":"17","likes":"12"},
+{"comment_id":"34","user_id":"2","content":"A few more tactical insights would be great.","created_at":"2024-02-12 17:00:00","comment_type":"Constructive","Page_id":"17","likes":"6"},
+{"comment_id":"35","user_id":"1","content":"Thorough coverage of the team.","created_at":"2024-02-13 18:00:00","comment_type":"Positive","Page_id":"18","likes":"15"},
+{"comment_id":"36","user_id":"2","content":"Could include more player-focused articles.","created_at":"2024-02-14 19:00:00","comment_type":"Constructive","Page_id":"18","likes":"4"},
+{"comment_id":"37","user_id":"1","content":"A fantastic page about the club!","created_at":"2024-02-15 20:00:00","comment_type":"Positive","Page_id":"19","likes":"16"},
+{"comment_id":"38","user_id":"2","content":"Consider adding more match highlights.","created_at":"2024-02-16 21:00:00","comment_type":"Constructive","Page_id":"19","likes":"7"},
+{"comment_id":"39","user_id":"1","content":"Amazing details about the team.","created_at":"2024-02-17 22:00:00","comment_type":"Positive","Page_id":"20","likes":"18"},
+{"comment_id":"40","user_id":"2","content":"Would love to see more behind-the-scenes content.","created_at":"2024-02-18 23:00:00","comment_type":"Constructive","Page_id":"20","likes":"9"},
+{"comment_id":"41","user_id":"1","content":"Great page on the club!","created_at":"2024-02-19 12:00:00","comment_type":"Positive","Page_id":"21","likes":"13"},
+{"comment_id":"42","user_id":"2","content":"More player details would improve this.","created_at":"2024-02-20 13:00:00","comment_type":"Constructive","Page_id":"21","likes":"5"},
+{"comment_id":"43","user_id":"1","content":"Enjoyed the player statistics.","created_at":"2024-02-21 14:00:00","comment_type":"Positive","Page_id":"22","likes":"14"},
+{"comment_id":"44","user_id":"2","content":"Would be nice to see more team stats.","created_at":"2024-02-22 15:00:00","comment_type":"Constructive","Page_id":"22","likes":"6"},
+{"comment_id":"45","user_id":"1","content":"A solid page on the team!","created_at":"2024-02-23 16:00:00","comment_type":"Positive","Page_id":"23","likes":"12"},
+{"comment_id":"46","user_id":"2","content":"More historical context would be appreciated.","created_at":"2024-02-24 17:00:00","comment_type":"Constructive","Page_id":"23","likes":"8"},
+{"comment_id":"47","user_id":"1","content":"Fantastic coverage of the team.","created_at":"2024-02-25 18:00:00","comment_type":"Positive","Page_id":"24","likes":"16"},
+{"comment_id":"48","user_id":"2","content":"Add more about their tactics.","created_at":"2024-02-26 19:00:00","comment_type":"Constructive","Page_id":"24","likes":"6"},
+{"comment_id":"49","user_id":"1","content":"Great page, loved the detail!","created_at":"2024-02-27 20:00:00","comment_type":"Positive","Page_id":"25","likes":"15"},
+{"comment_id":"50","user_id":"2","content":"Consider adding more focus on individual players.","created_at":"2024-02-28 21:00:00","comment_type":"Constructive","Page_id":"25","likes":"5"},
+{"comment_id":"51","user_id":"1","content":"Very informative page on the club!","created_at":"2024-02-29 22:00:00","comment_type":"Positive","Page_id":"26","likes":"14"},
+{"comment_id":"52","user_id":"2","content":"More emphasis on match strategies would be great.","created_at":"2024-03-01 23:00:00","comment_type":"Constructive","Page_id":"26","likes":"8"},
+{"comment_id":"53","user_id":"1","content":"Awesome player stats!","created_at":"2024-03-02 12:00:00","comment_type":"Positive","Page_id":"27","likes":"16"},
+{"comment_id":"54","user_id":"2","content":"Would be better with some team comparisons.","created_at":"2024-03-03 13:00:00","comment_type":"Constructive","Page_id":"27","likes":"7"},
+{"comment_id":"55","user_id":"1","content":"Loved the overview of the club’s success.","created_at":"2024-03-04 14:00:00","comment_type":"Positive","Page_id":"28","likes":"18"},
+{"comment_id":"56","user_id":"2","content":"Consider adding more about their recent performances.","created_at":"2024-03-05 15:00:00","comment_type":"Constructive","Page_id":"28","likes":"9"}
+]
+}
+,{"type":"table","name":"Countries","database":"ivarriv_Dummy_test","data":
+[
+{"name":"Norway","flag_image_url":"norway.png","country_id":"1"},
+{"name":"Sweden","flag_image_url":"sweden.png","country_id":"2"},
+{"name":"Denmark","flag_image_url":"denmark.png","country_id":"3"}
+]
+}
+,{"type":"table","name":"Leagues","database":"ivarriv_Dummy_test","data":
+[
+{"name":"Premier League","emblem_image_url":"premier_league.png","id":"1","country":"1","content":"Top tier English football league","page_id":"1"},
+{"name":"La Liga","emblem_image_url":"la_liga.png","id":"2","country":"2","content":"Top tier Spanish football league","page_id":"2"},
+{"name":"Serie A","emblem_image_url":"serie_a.png","id":"3","country":"3","content":"Top tier Italian football league","page_id":"3"}
+]
+}
+,{"type":"table","name":"Pages","database":"ivarriv_Dummy_test","data":
+[
+{"Page_id":"1","Created_by":"1","view_count":"2","revision_count":"5","Created_at":"2023-01-01"},
+{"Page_id":"2","Created_by":"2","view_count":"0","revision_count":"10","Created_at":"2023-02-01"},
+{"Page_id":"3","Created_by":"3","view_count":"0","revision_count":"15","Created_at":"2023-03-01"},
+{"Page_id":"4","Created_by":"1","view_count":"150","revision_count":"8","Created_at":"2023-04-01"},
+{"Page_id":"5","Created_by":"2","view_count":"160","revision_count":"7","Created_at":"2023-05-01"},
+{"Page_id":"6","Created_by":"3","view_count":"170","revision_count":"6","Created_at":"2023-06-01"},
+{"Page_id":"7","Created_by":"1","view_count":"180","revision_count":"9","Created_at":"2023-07-01"},
+{"Page_id":"8","Created_by":"2","view_count":"190","revision_count":"5","Created_at":"2023-08-01"},
+{"Page_id":"9","Created_by":"1","view_count":"100","revision_count":"5","Created_at":"2023-09-01"},
+{"Page_id":"10","Created_by":"2","view_count":"120","revision_count":"7","Created_at":"2023-10-01"},
+{"Page_id":"11","Created_by":"3","view_count":"130","revision_count":"8","Created_at":"2023-10-02"},
+{"Page_id":"12","Created_by":"1","view_count":"140","revision_count":"6","Created_at":"2023-10-03"},
+{"Page_id":"13","Created_by":"2","view_count":"150","revision_count":"7","Created_at":"2023-10-04"},
+{"Page_id":"14","Created_by":"3","view_count":"160","revision_count":"9","Created_at":"2023-10-05"},
+{"Page_id":"15","Created_by":"1","view_count":"170","revision_count":"6","Created_at":"2023-10-06"},
+{"Page_id":"16","Created_by":"2","view_count":"180","revision_count":"5","Created_at":"2023-10-07"},
+{"Page_id":"17","Created_by":"3","view_count":"190","revision_count":"8","Created_at":"2023-10-08"},
+{"Page_id":"18","Created_by":"1","view_count":"200","revision_count":"7","Created_at":"2023-10-09"},
+{"Page_id":"19","Created_by":"2","view_count":"210","revision_count":"6","Created_at":"2023-10-10"},
+{"Page_id":"20","Created_by":"3","view_count":"220","revision_count":"9","Created_at":"2023-10-11"},
+{"Page_id":"21","Created_by":"1","view_count":"230","revision_count":"8","Created_at":"2023-10-12"},
+{"Page_id":"22","Created_by":"2","view_count":"240","revision_count":"5","Created_at":"2023-10-13"},
+{"Page_id":"23","Created_by":"3","view_count":"250","revision_count":"6","Created_at":"2023-10-14"},
+{"Page_id":"24","Created_by":"1","view_count":"260","revision_count":"9","Created_at":"2023-10-15"},
+{"Page_id":"25","Created_by":"2","view_count":"270","revision_count":"8","Created_at":"2023-10-16"},
+{"Page_id":"26","Created_by":"3","view_count":"280","revision_count":"5","Created_at":"2023-10-17"},
+{"Page_id":"27","Created_by":"1","view_count":"290","revision_count":"7","Created_at":"2023-10-18"},
+{"Page_id":"28","Created_by":"2","view_count":"300","revision_count":"6","Created_at":"2023-10-19"}
+]
+}
+,{"type":"table","name":"PageTags","database":"ivarriv_Dummy_test","data":
+[
+{"page_id":"9","tag_id":"1"},
+{"page_id":"10","tag_id":"1"},
+{"page_id":"11","tag_id":"1"},
+{"page_id":"12","tag_id":"1"},
+{"page_id":"13","tag_id":"1"},
+{"page_id":"14","tag_id":"1"},
+{"page_id":"15","tag_id":"1"},
+{"page_id":"16","tag_id":"1"},
+{"page_id":"17","tag_id":"1"},
+{"page_id":"18","tag_id":"1"},
+{"page_id":"19","tag_id":"1"},
+{"page_id":"20","tag_id":"1"},
+{"page_id":"21","tag_id":"1"},
+{"page_id":"22","tag_id":"1"},
+{"page_id":"23","tag_id":"1"},
+{"page_id":"24","tag_id":"1"},
+{"page_id":"25","tag_id":"1"},
+{"page_id":"26","tag_id":"1"},
+{"page_id":"27","tag_id":"1"},
+{"page_id":"28","tag_id":"1"}
+]
+}
+,{"type":"table","name":"Players","database":"ivarriv_Dummy_test","data":
+[
+{"id":"1","name":"Player 1","birth_date":"1990-01-01","height":"180.50","picture_url":"player1.png","team":"1","country":"1","content":"Player 1 biography","page_id":"9"},
+{"id":"2","name":"Player 2","birth_date":"1991-02-01","height":"175.30","picture_url":"player2.png","team":"1","country":"1","content":"Player 2 biography","page_id":"10"},
+{"id":"3","name":"Player 3","birth_date":"1992-03-01","height":"178.00","picture_url":"player3.png","team":"1","country":"1","content":"Player 3 biography","page_id":"11"},
+{"id":"4","name":"Player 4","birth_date":"1993-04-01","height":"182.70","picture_url":"player4.png","team":"2","country":"2","content":"Player 4 biography","page_id":"12"},
+{"id":"5","name":"Player 5","birth_date":"1994-05-01","height":"177.90","picture_url":"player5.png","team":"2","country":"2","content":"Player 5 biography","page_id":"13"},
+{"id":"6","name":"Player 6","birth_date":"1995-06-01","height":"180.30","picture_url":"player6.png","team":"2","country":"2","content":"Player 6 biography","page_id":"14"},
+{"id":"7","name":"Player 7","birth_date":"1996-07-01","height":"174.00","picture_url":"player7.png","team":"3","country":"3","content":"Player 7 biography","page_id":"15"},
+{"id":"8","name":"Player 8","birth_date":"1997-08-01","height":"183.20","picture_url":"player8.png","team":"3","country":"3","content":"Player 8 biography","page_id":"16"},
+{"id":"9","name":"Player 9","birth_date":"1998-09-01","height":"176.10","picture_url":"player9.png","team":"3","country":"1","content":"Player 9 biography","page_id":"17"},
+{"id":"10","name":"Player 10","birth_date":"1999-10-01","height":"179.90","picture_url":"player10.png","team":"4","country":"2","content":"Player 10 biography","page_id":"18"},
+{"id":"11","name":"Player 11","birth_date":"1988-11-01","height":"182.50","picture_url":"player11.png","team":"4","country":"1","content":"Player 11 biography","page_id":"19"},
+{"id":"12","name":"Player 12","birth_date":"1989-12-01","height":"178.40","picture_url":"player12.png","team":"4","country":"3","content":"Player 12 biography","page_id":"20"},
+{"id":"13","name":"Player 13","birth_date":"1990-11-11","height":"177.70","picture_url":"player13.png","team":"5","country":"2","content":"Player 13 biography","page_id":"21"},
+{"id":"14","name":"Player 14","birth_date":"1991-10-10","height":"179.50","picture_url":"player14.png","team":"5","country":"1","content":"Player 14 biography","page_id":"22"},
+{"id":"15","name":"Player 15","birth_date":"1992-09-09","height":"181.20","picture_url":"player15.png","team":"5","country":"3","content":"Player 15 biography","page_id":"23"},
+{"id":"16","name":"Player 16","birth_date":"1993-08-08","height":"176.60","picture_url":"player16.png","team":"1","country":"2","content":"Player 16 biography","page_id":"24"},
+{"id":"17","name":"Player 17","birth_date":"1994-07-07","height":"183.90","picture_url":"player17.png","team":"2","country":"3","content":"Player 17 biography","page_id":"25"},
+{"id":"18","name":"Player 18","birth_date":"1995-06-06","height":"179.80","picture_url":"player18.png","team":"3","country":"1","content":"Player 18 biography","page_id":"26"},
+{"id":"19","name":"Player 19","birth_date":"1996-05-05","height":"181.40","picture_url":"player19.png","team":"4","country":"2","content":"Player 19 biography","page_id":"27"},
+{"id":"20","name":"Player 20","birth_date":"1997-04-04","height":"177.30","picture_url":"player20.png","team":"5","country":"3","content":"Player 20 biography","page_id":"28"}
+]
+}
+,{"type":"table","name":"Revisions","database":"ivarriv_Dummy_test","data":
+[
+{"revision_id":"1","content":"Added detailed statistics for teams in the Premier League.","revised_by":"1","revised_at":"2024-01-03 10:00:00","page_id":"1"},
+{"revision_id":"2","content":"Updated historical data for La Liga teams and added new match results.","revised_by":"1","revised_at":"2024-01-06 11:00:00","page_id":"2"},
+{"revision_id":"3","content":"Included a breakdown of key players and their performance for Bundesliga teams.","revised_by":"1","revised_at":"2024-01-09 12:00:00","page_id":"3"},
+{"revision_id":"4","content":"Revised the MLS section to include more team-related content and player highlights.","revised_by":"1","revised_at":"2024-01-12 13:00:00","page_id":"4"},
+{"revision_id":"5","content":"Added recent champions and their key achievements in Serie A.","revised_by":"1","revised_at":"2024-01-15 14:00:00","page_id":"5"},
+{"revision_id":"6","content":"Updated the team analysis with more statistics and recent match results.","revised_by":"1","revised_at":"2024-01-18 15:00:00","page_id":"6"},
+{"revision_id":"7","content":"Expanded on the tactical approaches of teams with added visual stats.","revised_by":"1","revised_at":"2024-01-21 16:00:00","page_id":"7"},
+{"revision_id":"8","content":"Added a deeper historical context and rivalries for the teams covered.","revised_by":"1","revised_at":"2024-01-24 17:00:00","page_id":"8"},
+{"revision_id":"9","content":"Revised the stats to include recent seasons and a breakdown of key players.","revised_by":"1","revised_at":"2024-01-27 18:00:00","page_id":"9"},
+{"revision_id":"10","content":"Updated player transfer data and included recent strategic shifts within the teams.","revised_by":"1","revised_at":"2024-01-30 19:00:00","page_id":"10"},
+{"revision_id":"11","content":"Enhanced the section with more detailed league standings and team achievements.","revised_by":"1","revised_at":"2024-02-02 20:00:00","page_id":"11"},
+{"revision_id":"12","content":"Refined the coverage of player rivalries and their impact on the teams.","revised_by":"1","revised_at":"2024-02-05 21:00:00","page_id":"12"},
+{"revision_id":"13","content":"Added more statistics for individual players and their historical achievements.","revised_by":"1","revised_at":"2024-02-08 22:00:00","page_id":"13"},
+{"revision_id":"14","content":"Updated the club performance data with recent tactical adjustments.","revised_by":"1","revised_at":"2024-02-11 23:00:00","page_id":"14"},
+{"revision_id":"15","content":"Revised the page with additional information on league rankings and standings.","revised_by":"1","revised_at":"2024-02-14 12:00:00","page_id":"15"},
+{"revision_id":"16","content":"Enhanced the player analysis with more detailed game-by-game performance metrics.","revised_by":"1","revised_at":"2024-02-17 13:00:00","page_id":"16"},
+{"revision_id":"17","content":"Updated with a review of player strategies and recent achievements for the club.","revised_by":"1","revised_at":"2024-02-20 14:00:00","page_id":"17"},
+{"revision_id":"18","content":"Included more insights on the team’s overall performance and match statistics.","revised_by":"1","revised_at":"2024-02-23 15:00:00","page_id":"18"},
+{"revision_id":"19","content":"Revised the section to focus more on key match highlights and the team’s tactical changes.","revised_by":"1","revised_at":"2024-02-26 16:00:00","page_id":"19"},
+{"revision_id":"20","content":"Added behind-the-scenes information and improved team performance analysis.","revised_by":"1","revised_at":"2024-02-29 17:00:00","page_id":"20"},
+{"revision_id":"21","content":"Enhanced coverage of team achievements and key player statistics.","revised_by":"1","revised_at":"2024-03-03 18:00:00","page_id":"21"},
+{"revision_id":"22","content":"Updated the statistics with a deeper look into the team’s performance in international competitions.","revised_by":"1","revised_at":"2024-03-06 19:00:00","page_id":"22"},
+{"revision_id":"23","content":"Added more historical data to provide context for current team strategies.","revised_by":"1","revised_at":"2024-03-09 20:00:00","page_id":"23"},
+{"revision_id":"24","content":"Revised the page with a more in-depth analysis of team tactics and player development.","revised_by":"1","revised_at":"2024-03-12 21:00:00","page_id":"24"},
+{"revision_id":"25","content":"Enhanced the team profile with more player-focused data and match results.","revised_by":"1","revised_at":"2024-03-15 22:00:00","page_id":"25"},
+{"revision_id":"26","content":"Revised the club profile to include more detailed historical analysis of past seasons.","revised_by":"1","revised_at":"2024-03-18 23:00:00","page_id":"26"},
+{"revision_id":"27","content":"Updated the content with a new player-focused analysis and recent match reviews.","revised_by":"1","revised_at":"2024-03-21 12:00:00","page_id":"27"},
+{"revision_id":"28","content":"Revised to include more information about the team’s fan engagement and media coverage.","revised_by":"1","revised_at":"2024-03-24 13:00:00","page_id":"28"}
+]
+}
+,{"type":"table","name":"Tags","database":"ivarriv_Dummy_test","data":
+[
+{"tag_id":"3","tag_name":"Leagues"},
+{"tag_id":"1","tag_name":"Players"},
+{"tag_id":"2","tag_name":"Team"}
+]
+}
+,{"type":"table","name":"Teams","database":"ivarriv_Dummy_test","data":
+[
+{"name":"UpdatedTeam","coach":"UpdatedCoach","emblem_image_url":"updated_url.png","id":"1","league":"1","country":"1","content":"Updated content","page_id":"1"},
+{"name":"Team B","coach":"Coach B","emblem_image_url":"team_b.png","id":"2","league":"1","country":"1","content":"Description for Team B","page_id":"5"},
+{"name":"Team C","coach":"Coach C","emblem_image_url":"team_c.png","id":"3","league":"2","country":"2","content":"Description for Team C","page_id":"6"},
+{"name":"Team D","coach":"Coach D","emblem_image_url":"team_d.png","id":"4","league":"2","country":"2","content":"Description for Team D","page_id":"7"},
+{"name":"Team E","coach":"Coach E","emblem_image_url":"team_e.png","id":"5","league":"3","country":"3","content":"Description for Team E","page_id":"8"}
+]
+}
+,{"type":"table","name":"Users","database":"ivarriv_Dummy_test","data":
+[
+{"user_id":"1","google_id":"google-1","username":"UserOne","email":"user1@example.com","profile_image_url":"user1.png","created_at":"2024-11-12 15:31:58","first_login":"2024-01-01","last_login":"2024-11-12 20:05:33","last_logout":"2024-11-12 20:05:33","is_admin":"1"},
+{"user_id":"2","google_id":"google-2","username":"UserTwo","email":"user2@example.com","profile_image_url":"user2.png","created_at":"2024-11-12 15:31:58","first_login":"2024-01-01","last_login":null,"last_logout":null,"is_admin":"0"},
+{"user_id":"3","google_id":"google-3","username":"UserThree","email":"user3@example.com","profile_image_url":"user3.png","created_at":"2024-11-12 15:31:58","first_login":"2024-01-01","last_login":null,"last_logout":null,"is_admin":"1"}
+]
+}
+,{"type":"table","name":"Users_like_dislike","database":"ivarriv_Dummy_test","data":
+[
+
+]
+}
+]

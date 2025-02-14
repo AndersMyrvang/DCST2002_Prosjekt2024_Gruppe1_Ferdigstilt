@@ -1,0 +1,21 @@
+/* TagList.css */
+.tag-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tag-link {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .tag-link:hover {
+    text-decoration: underline;
+  }
+  
+  .tag-page-count {
+    font-size: 0.9em;
+    color: #6c757d;
+  }
+  

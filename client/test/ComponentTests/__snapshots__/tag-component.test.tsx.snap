@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagAdd Component matches snapshot for initial render 1`] = `<DocumentFragment />`;
+
+exports[`TagAdd Component matches snapshot for initial render 2`] = `<DocumentFragment />`;

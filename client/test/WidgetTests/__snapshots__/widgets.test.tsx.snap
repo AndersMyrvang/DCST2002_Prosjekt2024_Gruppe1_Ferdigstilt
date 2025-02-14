@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="card card1"
+  >
+    <div
+      class="card-body card-body1"
+    >
+      <h5
+        class="card-title card-title1"
+      >
+        Test Title
+      </h5>
+      <div
+        class="card-text card-text1"
+      >
+        <h2>
+          Test Name
+        </h2>
+        <div
+          class="row"
+        >
+          <div
+            class="col-7"
+          >
+            <div
+              class="float-start"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="card card4 "
+                >
+                  <div
+                    class="card-body card-body4 "
+                  >
+                    <h5
+                      class="card-title card-title4"
+                    />
+                    <div
+                      class="card-content card-content4"
+                    >
+                      <div>
+                        <p>
+                          Test Content
+                        </p>
+                      </div>
+                      <div
+                        class="row"
+                      >
+                        <div
+                          class="col"
+                        >
+                          <div
+                            class="float-start"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-3"
+          >
+            <div
+              class="float-start"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="card card2 "
+                >
+                  <div
+                    class="card-body card-body2 "
+                  >
+                    <h5
+                      class="card-title card-title2"
+                    >
+                      Test Name
+                    </h5>
+                    <div
+                      class="card-content card-content2"
+                    >
+                      <div
+                        class="col-11"
+                      >
+                        <div
+                          class="float-start"
+                        >
+                          <div
+                            class="card card4 "
+                          >
+                            <div
+                              class="card-body card-body4 "
+                            >
+                              <h5
+                                class="card-title card-title4"
+                              />
+                              <div
+                                class="card-content card-content4"
+                              >
+                                <img
+                                  alt="Image from https://example.com/emblem.jpg"
+                                  src="https://example.com/emblem.jpg"
+                                  width="360px"
+                                />
+                                <img
+                                  alt="Image from https://example.com/image.jpg"
+                                  src="https://example.com/image.jpg"
+                                  width="360px"
+                                />
+                                <p>
+                                  <b>
+                                    Birth date:
+                                  </b>
+                                   1990-01-01
+                                </p>
+                                <p>
+                                  <b>
+                                    Height:
+                                  </b>
+                                   180 cm
+                                </p>
+                                <p>
+                                  <b>
+                                    Country:
+                                  </b>
+                                   Test Country
+                                </p>
+                                <p>
+                                  <b>
+                                    Team:
+                                  </b>
+                                   
+                                  <a
+                                    style="color: blue; text-decoration: underline; cursor: pointer;"
+                                  >
+                                    Test Team
+                                  </a>
+                                </p>
+                                <p>
+                                  <b>
+                                    League:
+                                  </b>
+                                   
+                                  <a
+                                    style="color: blue; text-decoration: underline; cursor: pointer;"
+                                  >
+                                    Test League
+                                  </a>
+                                </p>
+                                <p>
+                                  <b>
+                                    Teams:
+                                  </b>
+                                  <a
+                                    style="color: blue; text-decoration: underline; cursor: pointer;"
+                                  >
+                                    <br />
+                                    Team A
+                                  </a>
+                                </p>
+                                <p>
+                                  <b>
+                                    Players:
+                                  </b>
+                                  <a
+                                    style="color: blue; text-decoration: underline; cursor: pointer;"
+                                  >
+                                    <br />
+                                    Player A
+                                  </a>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card card1"
+        >
+          <div
+            class="card-body card-body1"
+          >
+            <h5
+              class="card-title card-title1"
+            >
+              Page History
+            </h5>
+            <div
+              class="card-text card-text1"
+            >
+              <div
+                style="margin-left: 60px; display: flex; width: 1080px; justify-content: space-evenly; align-items: center;"
+              >
+                <div
+                  style="display: flex; justify-content: space-evenly; width: 100%;"
+                >
+                  <p
+                    style="flex: 1; text-align: left; margin-right: 20px;"
+                  >
+                    Laget av: Test Creator, 2024-01-01
+                  </p>
+                  <p
+                    style="flex: 1; text-align: center; margin-right: 20px;"
+                  >
+                    Sist oppdatert av: Test Reviser, 2024-01-02
+                  </p>
+                  <p
+                    style="flex: 1; text-align: right;"
+                  >
+                    View count: 123
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

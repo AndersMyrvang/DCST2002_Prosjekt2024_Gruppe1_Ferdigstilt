@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextEditor component tests TextEditor component renders correctly with initial content 1`] = `
+<Editor
+  cloudChannel="7"
+  init={
+    {
+      "height": 500,
+      "menubar": false,
+      "plugins": [
+        "advlist",
+        "autolink",
+        "lists",
+        "link",
+        "image",
+        "charmap",
+        "print",
+        "preview",
+        "anchor",
+        "searchreplace",
+        "visualblocks",
+        "code",
+        "fullscreen",
+        "insertdatetime",
+        "media",
+        "table",
+        "paste",
+        "code",
+        "help",
+        "wordcount",
+      ],
+      "setup": [Function],
+      "toolbar": "undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help",
+    }
+  }
+  onEditorChange={[Function]}
+  value="Initial content"
+/>
+`;
+
+exports[`TextEditor component tests TextEditor component renders correctly with initial content 2`] = `
+<Editor
+  cloudChannel="7"
+  init={
+    {
+      "height": 500,
+      "menubar": false,
+      "plugins": [
+        "advlist",
+        "autolink",
+        "lists",
+        "link",
+        "image",
+        "charmap",
+        "print",
+        "preview",
+        "anchor",
+        "searchreplace",
+        "visualblocks",
+        "code",
+        "fullscreen",
+        "insertdatetime",
+        "media",
+        "table",
+        "paste",
+        "code",
+        "help",
+        "wordcount",
+      ],
+      "setup": [Function],
+      "toolbar": "undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help",
+    }
+  }
+  onEditorChange={[Function]}
+  value="Initial content"
+/>
+`;
+
+exports[`TextEditor component tests TextEditor renders correctly with empty initial content 1`] = `
+<Editor
+  cloudChannel="7"
+  init={
+    {
+      "height": 500,
+      "menubar": false,
+      "plugins": [
+        "advlist",
+        "autolink",
+        "lists",
+        "link",
+        "image",
+        "charmap",
+        "print",
+        "preview",
+        "anchor",
+        "searchreplace",
+        "visualblocks",
+        "code",
+        "fullscreen",
+        "insertdatetime",
+        "media",
+        "table",
+        "paste",
+        "code",
+        "help",
+        "wordcount",
+      ],
+      "setup": [Function],
+      "toolbar": "undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help",
+    }
+  }
+  onEditorChange={[Function]}
+  value=""
+/>
+`;
+
+exports[`TextEditor component tests TextEditor renders correctly with empty initial content 2`] = `
+<Editor
+  cloudChannel="7"
+  init={
+    {
+      "height": 500,
+      "menubar": false,
+      "plugins": [
+        "advlist",
+        "autolink",
+        "lists",
+        "link",
+        "image",
+        "charmap",
+        "print",
+        "preview",
+        "anchor",
+        "searchreplace",
+        "visualblocks",
+        "code",
+        "fullscreen",
+        "insertdatetime",
+        "media",
+        "table",
+        "paste",
+        "code",
+        "help",
+        "wordcount",
+      ],
+      "setup": [Function],
+      "toolbar": "undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help",
+    }
+  }
+  onEditorChange={[Function]}
+  value=""
+/>
+`;
+
+exports[`TextEditor component tests TextEditor snapshot matches with initial content 1`] = `
+<Editor
+  cloudChannel="7"
+  init={
+    {
+      "height": 500,
+      "menubar": false,
+      "plugins": [
+        "advlist",
+        "autolink",
+        "lists",
+        "link",
+        "image",
+        "charmap",
+        "print",
+        "preview",
+        "anchor",
+        "searchreplace",
+        "visualblocks",
+        "code",
+        "fullscreen",
+        "insertdatetime",
+        "media",
+        "table",
+        "paste",
+        "code",
+        "help",
+        "wordcount",
+      ],
+      "setup": [Function],
+      "toolbar": "undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help",
+    }
+  }
+  onEditorChange={[Function]}
+  value="Initial content"
+/>
+`;

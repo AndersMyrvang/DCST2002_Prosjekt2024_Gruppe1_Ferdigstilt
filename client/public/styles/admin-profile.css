@@ -1,0 +1,42 @@
+/* Stil for admin panel-container */
+.admin-panel-container {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel h2 {
+  margin-bottom: 10px;
+}
+
+/* Juster tabellen */
+.admin-panel table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0;
+}
+
+.admin-panel th,
+.admin-panel td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+/* Stil for grønn og rød dot (online/offline)*/
+.online-dot {
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.offline-dot {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
