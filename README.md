@@ -1,5 +1,12 @@
 # DCST2002_Prosjekt2024_Gruppe1
 
+## Dette produktet er et samarbeidsprosjekt, skrevet og laget sammen med:
+
+- kasduden
+- ellenurdal
+- Lundiez
+- lizzarissa
+
 Veiledning som beskriver hvordan man installerer, setter opp og bruker løsningen.
 
 
